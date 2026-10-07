@@ -203,7 +203,7 @@ Trabalho desenvolvido como requisito avaliativo da disciplina **Tópicos em Biot
 
 ## Autor
 
-**Raphael Di Giorgio** · [@miscrapha-DELTA-IA](https://github.com/miscrapha-DELTA-IA)
+**Raphael Di Giorgio** **Aquiles Esaú Da Silva Reis· [@miscrapha-DELTA-IA](https://github.com/miscrapha-DELTA-IA)
 
 ---
 
