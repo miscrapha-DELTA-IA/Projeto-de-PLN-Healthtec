@@ -17,6 +17,22 @@ Pipeline de NLP que combina *embeddings* densos, modelagem de tópicos e detecç
 
 </div>
 
+> **Atualização: Bloco 16 reproduzível.** O notebook agora compara cinco configurações em ambos os alvos com split 80/20 e CV-5 no treino. As saídas antigas foram removidas. **Os números e figuras históricos abaixo não são resultados verificados desta nova versão.** Execute o notebook e use as tabelas geradas para atualizar o relatório.
+
+### Executar e reproduzir a comparação
+
+1. Abra [o notebook no Colab](https://colab.research.google.com/github/miscrapha-DELTA-IA/Projeto-de-PLN-Healthtec/blob/main/TRABALHO_NLP.ipynb) e execute os blocos em ordem.
+2. No fim do Bloco 16, baixe o ZIP: contém tabelas, gráficos, erros por classe/comprimento, modelos da nova execução, dados, embeddings, IDs de treino/teste/folds, versões e hashes.
+3. Para repetir apenas a comparação, use o ambiente registrado no ZIP, carregue esse pacote no Colab, execute 16A e configure `REPLAY_ZIP` em 16B. Não precisa repetir a geração de embeddings ou rótulos.
+4. Atualize o PDF a partir de `resumo_resultados.md` e `comparacao_modelos.csv`. Não reutilize os números históricos A/B sem os artefatos que os comprovem.
+
+As cinco configurações são LinearSVC/SBERT, Regressão Logística/SBERT, k-NN/SBERT, Naive Bayes/TF-IDF e LinearSVC/TF-IDF. TF-IDF é aprendido dentro de cada fold. A CV mede os classificadores condicionados aos rótulos fixos: a geração prévia de LDA/Louvain continua sendo transdutiva, conforme o protocolo original. O grafo mantém pesos de distância por padrão para corresponder à metodologia histórica; a alternativa de similaridade está explicitamente configurável e muda os resultados. A semente do Louvain agora é fixa em 42.
+
+Os três `.pkl` na raiz do repositório são históricos. O ZIP de uma execução completa contém os modelos e o perfil correspondentes à nova partição. Não misture modelos e perfis de execuções diferentes.
+
+---
+
+
 ---
 
 ## Visão geral
@@ -203,7 +219,7 @@ Trabalho desenvolvido como requisito avaliativo da disciplina **Tópicos em Biot
 
 ## Autor
 
-**Raphael Di Giorgio** **Aquiles Esaú Da Silva Reis· [@miscrapha-DELTA-IA](https://github.com/miscrapha-DELTA-IA)
+**Raphael Di Giorgio** e **Aquiles Esaú da Silva Reis** · [@miscrapha-DELTA-IA](https://github.com/miscrapha-DELTA-IA)
 
 ---
 
