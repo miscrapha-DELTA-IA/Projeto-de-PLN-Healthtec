@@ -1,0 +1,74 @@
+[
+  {
+    "task": "lda",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "lda",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "lda",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "lda",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "lda",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "lda",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "louvain",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "louvain",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "louvain",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "louvain",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "louvain",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  },
+  {
+    "task": "louvain",
+    "model": "logreg_sbert",
+    "category": "DeprecationWarning",
+    "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  }
+]

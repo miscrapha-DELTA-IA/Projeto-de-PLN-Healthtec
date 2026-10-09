@@ -1,0 +1,15 @@
+# Dados brutos e caches
+*.parquet
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.cache/
+.huggingface/
+hf_cache/
+.cache_huggingface/
+.config/
+# Ambientes locais
+.venv/
+venv/
+# Resultados locais; o ZIP auditado da raiz permanece versionado
+resultados_healthtec/
